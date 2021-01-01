@@ -1,0 +1,54 @@
+PODS:
+  - Alamofire (5.4.0)
+  - RxAlamofire (5.7.1):
+    - RxAlamofire/Core (= 5.7.1)
+  - RxAlamofire/Core (5.7.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 5.1)
+  - RxBiBinding (0.2.5):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxBinding (0.4):
+    - RxCocoa (< 6.0.0, >= 5.0.0)
+    - RxSwift (< 6.0.0, >= 5.0.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - Then (2.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - RxAlamofire
+  - RxBiBinding
+  - RxBinding
+  - RxCocoa
+  - RxSwift
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - RxAlamofire
+    - RxBiBinding
+    - RxBinding
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - Then
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  RxAlamofire: 8e144c62dcc01d68dcb366bfc542eb6dd46bab78
+  RxBiBinding: 6cc627d9e0dfa0b2ce8470cd7e539f3cb100f782
+  RxBinding: da433c012633802a72c2a5bec8775b86f4cddeb8
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+
+PODFILE CHECKSUM: 4a851c76033cca2e69db961225c6d545ecd9bb53
+
+COCOAPODS: 1.10.0
