@@ -8,7 +8,7 @@
 import Foundation
 
 struct Constant {
-    static let weatherUrl = "https://rest.coinapi.io"
+    static let coinUrl = "https://rest.coinapi.io/v1/"
     static let apiKey = "8B0B6121-E329-4E74-8F82-2EC7DEB35DE9"
 }
 

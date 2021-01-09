@@ -16,8 +16,6 @@
 		1A044E11259F344B00067C41 /* CoinAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A044E10259F344B00067C41 /* CoinAsset.swift */; };
 		1A044E24259F3BC100067C41 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A044E23259F3BC100067C41 /* Constant.swift */; };
 		1A044E27259F3C9800067C41 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A044E26259F3C9800067C41 /* Logger.swift */; };
-		1A044E2B259F3CD300067C41 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A044E2A259F3CD300067C41 /* BaseRouter.swift */; };
-		1A044E2E259F3CFA00067C41 /* CoinRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A044E2D259F3CFA00067C41 /* CoinRouter.swift */; };
 		1A044E34259F3D4B00067C41 /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A044E33259F3D4B00067C41 /* APIController.swift */; };
 		1A044E38259F3DE400067C41 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A044E37259F3DE400067C41 /* Dictionary.swift */; };
 		1A044E3B259F3DF200067C41 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A044E3A259F3DF200067C41 /* Data.swift */; };
@@ -51,8 +49,6 @@
 		1A044E10259F344B00067C41 /* CoinAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAsset.swift; sourceTree = "<group>"; };
 		1A044E23259F3BC100067C41 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		1A044E26259F3C9800067C41 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
-		1A044E2A259F3CD300067C41 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
-		1A044E2D259F3CFA00067C41 /* CoinRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRouter.swift; sourceTree = "<group>"; };
 		1A044E33259F3D4B00067C41 /* APIController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 		1A044E37259F3DE400067C41 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		1A044E3A259F3DF200067C41 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
@@ -159,20 +155,10 @@
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		1A044E30259F3D3500067C41 /* Routers */ = {
-			isa = PBXGroup;
-			children = (
-				1A044E2A259F3CD300067C41 /* BaseRouter.swift */,
-				1A044E2D259F3CFA00067C41 /* CoinRouter.swift */,
-			);
-			path = Routers;
-			sourceTree = "<group>";
-		};
 		1A044E32259F3D3F00067C41 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				1A044E53259F4D9200067C41 /* Services */,
-				1A044E30259F3D3500067C41 /* Routers */,
+				1A044E50259F3F9E00067C41 /* CoinService.swift */,
 				1A044E33259F3D4B00067C41 /* APIController.swift */,
 			);
 			path = Controllers;
@@ -199,14 +185,6 @@
 				1A044E48259F3E5100067C41 /* UITableView.swift */,
 			);
 			path = UIExtensions;
-			sourceTree = "<group>";
-		};
-		1A044E53259F4D9200067C41 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				1A044E50259F3F9E00067C41 /* CoinService.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		1A044E85259F612E00067C41 /* TableViewCells */ = {
@@ -367,12 +345,10 @@
 				1A044E38259F3DE400067C41 /* Dictionary.swift in Sources */,
 				1A044E49259F3E5100067C41 /* UITableView.swift in Sources */,
 				1A044E27259F3C9800067C41 /* Logger.swift in Sources */,
-				1A044E2B259F3CD300067C41 /* BaseRouter.swift in Sources */,
 				1A044E3B259F3DF200067C41 /* Data.swift in Sources */,
 				1A044DF7259F2AA400067C41 /* AppDelegate.swift in Sources */,
 				1A044E24259F3BC100067C41 /* Constant.swift in Sources */,
 				1A044E3E259F3E0400067C41 /* Date.swift in Sources */,
-				1A044E2E259F3CFA00067C41 /* CoinRouter.swift in Sources */,
 				1A044E42259F3E3000067C41 /* Array.swift in Sources */,
 				1A044E46259F3E3E00067C41 /* UIView.swift in Sources */,
 				1A044E89259F66BF00067C41 /* ExchangeRateTableHeaderSectionView.swift in Sources */,
